@@ -1,0 +1,75 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Discord Push-Notification</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-md-7 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="images/portfolio/on-leave.png" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/on-birthday.png" alt="" />
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-5 col-md-5 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-user"></i> Wedha</p></li>
+                        <li><p><i class="fa fa-calendar"></i> 2024</p></li>
+                    </ul>
+
+                    <p class="text-justify">Engineered a unified real-time communication hub through Discord's enterprise webhook integration, fostering seamless collaboration across the organization. This innovative solution connects key business units - from HR and Product teams to Finance, Sales, and Partnerships - enabling instant information sharing and accelerating cross-departmental workflows.</p>
+                    <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>PostgreSQL</a></li>
+                            <li><a>MariaDB</a></li>
+                            <li><a>Go Fiber</a></li>
+                            <li><a>Discord Webhook</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+
+                    
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
